@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Latihan DOM</title>
+    </head>
+
+    <body id="background-color">
+        <p id="pesan" onclick="ubahAku(this)">Selamat Datang di DOM</p>
+        <button onclick="myFunction()">
+            Ubah Warna
+        </button>
+        <button onclick="myFunction2()">
+            Ubah Warna
+        </button>
+
+
+        <script>
+            function myFunction() {
+                const p = document.getElementById("pesan");
+                p.style.color = "red";
+            }
+
+            const myFunction2 = () => {
+                const p = document.getElementById("pesan");
+                p.style.color = "orange";
+            }
+
+            function ubahAku(id) {
+                id.style.color = "red";
+                if (id.innerHTML == "Tulisan Berubah") {
+                    id.innerHTML = "Selamat Datang di DOM";
+                } else {
+                    id.innerHTML = "Tulisan Berubah";
+                }
+
+            }
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Latihan DOM 2</title>
+    </head>
+
+    <body>
+        <p onmouseover="setLgSize(this)" onmouseout="setSmSize(this)"></p>
+        <button onclick="setParagraf()">
+            Set Paragraf
+        </button>
+
+
+
+
+        <script>
+            const p = document.getElementsByTagName("p")[0];
+
+            const setParagraf = () => {
+                p.innerHTML = "Semoga kita semua sukses dan sehat selalu"
+                p.style.color = "red";
+                p.style.fontSize = "20px";
+            }
+
+            function setLgSize(text) {
+                text.style.fontSize = "40px";
+            }
+
+            function setSmSize(text) {
+                text.style.fontSize = "20px";
+            }
+        </script>
+    </body>
+
+</html>

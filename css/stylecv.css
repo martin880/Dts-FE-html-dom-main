@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*Untuk mengatur tampilan ikon*/
+.fa {
+    /* padding: 20px; */
+
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    padding-top: 1vh;
+}
+
+/*mengatur tampilan ikon saat mouse didekatkan*/
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+/*mengatur tampilan ikon facebook*/
+.fa-facebook {
+    background: white;
+    color: #3B5998;
+}
+
+/*mengatur tampilan ikon twitter*/
+.fa-twitter {
+    background: white;
+    color: #55ACEE;
+}
+
+/*mengatur tampilan ikon google*/
+.fa-google {
+    background: white;
+    color: #dd4b39;
+}
+
+/*mengatur tampilan ikon linkedin*/
+.fa-linkedin {
+    background: white;
+    color: #007bb5;
+}
+
+/*mengatur background jumbotron*/
+.jumbotron {
+    background-color: #f8f8f8;
+}
+
+/*mengatur warna teks heading*/
+h1,
+h4,
+h6 {
+    color: #72ab00;
+}
+
+/*mengatur tampilan judul formulir*/
+/* .message {
+    padding: 15px;
+    text-align: center;
+} */
